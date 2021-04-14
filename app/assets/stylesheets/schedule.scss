@@ -1,0 +1,93 @@
+// Place all the styles related to the schedule controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+html {
+  display: block;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+header, footer {
+  width: 100%;
+  padding: 10px;
+  background: #c52f24;
+  color: #fff;
+  margin: 0px;
+}
+
+header, footer{
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+}
+
+.main_container {
+  margin: 50px 15px;
+  padding-left: 20px;
+}
+
+table th {
+  border: solid 1px black;
+  padding: 10px 20px;
+  background-color: #ffdfdf;
+}
+
+table {
+  border-collapse: collapse;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+input[type=submit] {
+  width: auto;
+}
+table td {
+  border: solid 1px black;
+  padding: 10px 20px;
+  background-color: #f1c8c861;
+  text-align: center;
+}
+
+textarea {
+  width: 350px;
+  height: 200px;
+  font-size: 16px;
+}

@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  idno: MyString
+  title: MyString
+  start: 2021-04-12
+  end: 2021-04-12
+  allday: false
+  update: 2021-04-12 21:51:47
+
+two:
+  idno: MyString
+  title: MyString
+  start: 2021-04-12
+  end: 2021-04-12
+  allday: false
+  update: 2021-04-12 21:51:47

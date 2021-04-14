@@ -1,0 +1,38 @@
+<div class="main_container">
+
+  <h3>スケジュール新規作成</h3>
+  <%= form_with model: @space do |form| %>
+
+  <table>
+    <tr>
+      <th><%= form.label :title ,"タイトル" %></th>
+        <td><%= form.text_field :title %></td>
+    </tr>
+    <tr>
+      <th><%= form.label :start ,"開始日" %></th>
+        <td><%= form.date_field :start %></td>
+    </tr>
+    <tr>
+      <th><%= form.label :end ,"終了日" %></th>
+        <td><%= form.date_field :end %></td>
+      </tr>
+    <tr>
+      <th><%= form.label :allday ,"終日" %></th>
+        <td><%= form.check_box :allday %>
+        <%= label_tag :allday, "終日の場合はチェックを入れて下さい"%></td>
+    </tr>
+    <tr>
+      <th><%= form.label :memo ,"スケジュールメモ" %></th>
+      <td><%= form.text_area :memo %></td>
+    </tr>
+  </table>
+
+  <div>
+    <ul>
+      <li><%= form.submit "スケジュールを新規登録する"%></li>
+      <li><%= link_to "スケジュール一覧に戻る", :schedule_index %></li>
+    </ul>
+  </div>
+  <% end %>
+
+</div>
